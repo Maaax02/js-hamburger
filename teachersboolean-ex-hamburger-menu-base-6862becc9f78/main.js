@@ -1,20 +1,21 @@
+// let unknown = document.querySelector('.close');
+// let hamburger = document.querySelector('.hamburger-menu');
+
+// unknown = addEventListener('click', function(){
+//     document.getElementsByClassName('hamburger-menu').styleas
+    
+// })
 
 
 let toggler = document.getElementById('toggler');
 let unknown = document.getElementById('close');
-let clickCounter = 0;
+let hamburger = document.getElementById('hamburger')
+
 
 toggler = addEventListener('click', function(){
-    document.getElementById('toggler').style.display='block';
+    document.getElementById('hamburger').style.display='block';
 })
 
 unknown = addEventListener('click', function(){
-    document.getElementById('close')
-    
-    clickCounter++;
-
-    if (clickCounter % 2 !==0) {
-        document.getElementById('toggler').style.display='none';
-    }
-    
+    document.getElementById('hamburger').style.display='none';
 })
